@@ -10,14 +10,14 @@ export const FinalMessage = () => {
   }, []);
 
   return (
-    <section className="h-screen bg-edimaDark text-edimaPink flex flex-col justify-center items-center px-6 text-center">
-      {showConfetti && <Confetti numberOfPieces={300} recycle={false} />}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.4 }}
-        viewport={{ once: true }}
-        className="max-w-3xl"
+    <section className="min-h-screen bg-edimaDark text-edimaPink flex items-center justify-center px-4 sm:px-6 lg:px-12 text-center">
+  {showConfetti && <Confetti numberOfPieces={300} recycle={false} />}
+  <motion.div
+    initial={{ opacity: 0, y: 30 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1.4 }}
+    viewport={{ once: true }}
+    className="max-w-3xl"
       >
         <h2 className="text-4xl md:text-3xl font-[cursive] italic">
           My Dearest Princess Edima Samuel Koffi,

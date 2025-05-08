@@ -10,6 +10,9 @@ export default {
         edimaPink: "#fce4ec",
         edimaDark: "#880e4f",
       },
+    fontFamily: {
+      cursive: ['"Great Vibes"', 'cursive']
+    }  
     },
   },
   plugins: [],
