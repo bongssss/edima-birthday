@@ -2,7 +2,7 @@ import { useSound } from "../../hooks/use-sound";
 import { useEffect, useState } from "react";
 
 export const SoundToggle = () => {
-  const { isPlaying, toggle } = useSound("/sounds/pyramid.mp3");
+  const { isPlaying, toggle } = useSound("/sounds/pyramids.mp3");
   const [show, setShow] = useState(false);
 
   useEffect(() => {
