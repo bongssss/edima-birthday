@@ -14,8 +14,10 @@ npm (Node Package Manager) - Comes with Node.js installation</p>
 - 1. Clone the Repository:
 If you haven't already, clone the repository to your local machine:
 
+```bash
 git clone <repository-url>
 cd edima-birthday
+```
 - 2. Install Project Dependencies
 Now that you’re inside the project folder, let's install all dependencies:
 
