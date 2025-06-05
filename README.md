@@ -49,12 +49,12 @@ postcss.config.js
 - 4. Set Up TailwindCSS in the Project
 Create the main.css File
 
-In `src/styles/`, create a main.css file and add the following lines to set up Tailwind:
-`
+In `src/styles/`, create a `main.css` file and add the following lines to set up Tailwind:
+```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+```
 Import `main.css` in Your Entry File
 
 In your `src/main.tsx` (or `src/main.ts` if using plain TS), import the newly created `main.css` file:
