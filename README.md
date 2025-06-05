@@ -42,7 +42,8 @@ npx tailwindcss init -p
 ```
 This will generate the following files:
 `
-tailwind.config.js
+tailwind.config.js`,
+`
 postcss.config.js
 `
 - 4. Set Up TailwindCSS in the Project
