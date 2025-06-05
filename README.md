@@ -1,12 +1,8 @@
-# React + TypeScript + Vite
+# minimalist Birthday webapp using React + TypeScript + Vite
 
 
 
-
-####################################################
-minimalist Birthday webapp
-
-This repository contains the source code for a birthday website built with ViteJS, TypeScript, TailwindCSS, GSAP, and Framer Motion. Below you'll find the installation instructions, setup steps, and how to get started with the project.
+<p>This repository contains the source code for a birthday website built with ViteJS, TypeScript, TailwindCSS, GSAP, and Framer Motion. Below you'll find the installation instructions, setup steps, and how to get started with the project.</p>
 
 # Setup and Installation
 
@@ -61,8 +57,11 @@ import './styles/main.css';
 Now that everything is set up, you can run the development server:
 ```bash
 npm run dev
-The app should now be running at http://localhost:3000.
 ```
+The app should now be running at
+
+[localhost](http://localhost:3000).
+
 # Troubleshooting
 
 Permission Issues (macOS): If you encounter any permissions errors (EACCES), make sure your project folder is owned by your user account. You can reset folder permissions with:
