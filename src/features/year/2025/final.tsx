@@ -52,7 +52,7 @@ export const FinalMessage = () => {
           Happy birthday, With all my love.
           <br />
           <br />
-          Your betrothed,
+          Your bby boy,
           <br />
           Ubongabasi Etim. 
         </p>

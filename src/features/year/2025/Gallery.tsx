@@ -25,7 +25,7 @@ const images = [
   { src: edima10, description: "Forever unforgettable." },
   //{ src: edima11, description: "The light that shines bright." },
 ];
-
+//named export 
 export const Gallery = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(images[0]);
