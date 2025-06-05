@@ -38,10 +38,10 @@ Once the dependencies are installed, initialize TailwindCSS configuration:
 npx tailwindcss init -p
 ```
 This will generate the following files:
-```
+`
 tailwind.config.js
 postcss.config.js
-```
+`
 - 4. Set Up TailwindCSS in the Project
 Create the main.css File
 
@@ -50,15 +50,17 @@ In `src/styles/`, create a main.css file and add the following lines to set up T
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-Import main.css in Your Entry File
-`
-In your src/main.tsx (or src/main.ts if using plain TS), import the newly created main.css file:
-`
+
+Import `main.css` in Your Entry File
+
+In your `src/main.tsx` (or `src/main.ts` if using plain TS), import the newly created `main.css` file:
+```
 import './styles/main.css';
-`
+```
 - 5. Run the Development Server:
 <br>
 Now that everything is set up, you can run the development server:
+ß
 ```bash
 npm run dev
 ```
