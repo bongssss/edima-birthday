@@ -32,8 +32,9 @@ sudo chown -R $(whoami) edima-birthday
 Run the following command to install TailwindCSS, PostCSS, and Autoprefixer:
 ```bash
 sudo npm install -D tailwindcss@3.4.1 postcss autoprefixer
-This command will install the required CSS libraries.
 ```
+This command will install the required CSS libraries.
+
 - 3. Initialize TailwindCSS
 Once the dependencies are installed, initialize TailwindCSS configuration:
 ```bash
